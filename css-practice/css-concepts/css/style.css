@@ -11,5 +11,9 @@ input,button{
 p{
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
+}
 
+a:hover,a:focus{
+    background-color: gold;
+    opacity: 0.5;
 }
