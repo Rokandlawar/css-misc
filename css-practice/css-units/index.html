@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one-em {
+            font-size: 1em;
+        }
+
+        .one-rem {
+            font-size: 1rem;
+        }
+
+        .two-em {
+            font-size: 2em;
+        }
+
+        .two-rem {
+            font-size: 2rem;
+        }
+
+        .two-hundred-percent {
+            font-size: 200%
+        }
+
+        .icon-container.large {
+            font-size: 30px;
+        }
+
+        .em-icon {
+            width: 1em;
+            height: 1em;
+        }
+
+        .rem-icon {
+            width: 1rem;
+            height: 1rem;
+        }
+        .icon{
+            background-color: red;
+        }
+
+        .parent {
+            font-size: 30px;
+            border: 2px solid black;
+        }
+
+        /* uncomment below code to test % and viewport units */
+
+        /* .box {
+            background-color: red;
+            border: 2px solid black;
+            margin: 5px;
+        }
+
+        .fifty-percent {
+            width: 50%;
+        }
+
+        .one-hundred-pixels {
+            width: 100px;
+        }
+
+        .twenty-five-vh {
+            height: 25vh;
+        }
+
+        .fifty-vw {
+            width: 50vw;
+        }
+
+        .parent {
+            width: 135px;
+            border: 2px solid black;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="one-rem">1rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-rem">2rem</div>
+    <div class="two-em">2em</div>
+    <hr>
+    <div class="parent">
+        <div class="one-rem">1rem</div>
+        <div class="one-em">1em</div>
+        <div class="two-rem">2rem</div>
+        <div class="two-em">2em</div>
+    </div>
+    <hr>
+    <div class="icon-container">
+        <div class="icon em-icon"></div>
+        <span class="icon-text">1em icon</span>
+    </div>
+
+    <div class="icon-container">
+        <div class="icon rem-icon"></div>
+        <span class="icon-text">1rem icon</span>
+    </div>
+    <div class="icon-container large">
+        <div class="icon em-icon"></div>
+        <span class="icon-text">1em icon</span>
+    </div>
+
+    <div class="icon-container large">
+        <div class="icon rem-icon"></div>
+        <span class="icon-text">1rem icon</span>
+    </div>
+
+    <!-- uncomment below code to test % and viewport units -->
+    
+    <!-- <div class="box fifty-percent">50%</div>
+    <div class="box fifty-vw">50vw</div>
+    <div class="box one-hundred-pixels">100px</div>
+    <div class="box twenty-five-vh">25vh</div>
+    <hr>
+    <div class="parent">
+        <div class="box fifty-percent">50%</div>
+        <div class="box one-hundred-pixels">100px</div>
+        <div class="box twenty-five-vh">25vh</div>
+    </div> -->
+</body>
+
+</html>
