@@ -2,43 +2,34 @@ body{
     font-size: 2rem;
 }
 
-main{
-    background-color: aqua;
-    width: 50%;
-}
-
-p{
-    background-color: lightgray;
-    margin: 100px 50px;
-}
-
-.opposite{
-    display:inline-block;
-    background-color: #333;
-    color: whitesmoke;
-    margin-top: 100px;
-    height: 200px;
-    padding: 4rem;
-}
-
-ul{
-    background-color: lightgray;
-    padding: 0.5rem;
-    list-style-type: none;
-    text-align: right;
-}
-
-li{
-    display: inline-block;
-    margin-inline: 0.5rem;
-    /* display: none; */
-}
-
-li a{
+.block{
     color: #fff;
-    text-decoration: none;
+    background-color: #000;
+    width: 30vw;
+    height: 30vh;
+    padding: 1rem;
+    text-align: center;
 }
 
-li a:focus, li a:hover{
-    text-decoration: underline;
+.left{
+    float: left;
+    margin-right:  1rem;
+}
+
+
+.right{
+    float: right;
+    margin-left:  1rem;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: bisque;
+    border:1px solid black;
+    padding: 1rem;
+    /* overflow: auto; legacy code */
+    display: flow-root;
 }
