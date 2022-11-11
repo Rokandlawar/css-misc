@@ -2,34 +2,33 @@ body{
     font-size: 2rem;
 }
 
-.block{
+.columns{
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 2px solid #000;
+    column-gap: 3rem;
+}
+
+.columns p{
+    margin-top: 0;
+}
+
+.columns h2{
+    background-color: #333;
     color: #fff;
-    background-color: #000;
-    width: 30vw;
-    height: 30vh;
     padding: 1rem;
+    margin-top: 0;
+    padding: 3rem;
+    break-inside: avoid;
+}
+
+.columns .quote{
+    column-span: all;
+    background-color: antiquewhite;
     text-align: center;
+    margin-top: 2rem;
 }
 
-.left{
-    float: left;
-    margin-right:  1rem;
-}
-
-
-.right{
-    float: right;
-    margin-left:  1rem;
-}
-
-.clear{
-    clear: both;
-}
-
-section{
-    background-color: bisque;
-    border:1px solid black;
-    padding: 1rem;
-    /* overflow: auto; legacy code */
-    display: flow-root;
+.nowrap{
+    white-space: nowrap;
 }
