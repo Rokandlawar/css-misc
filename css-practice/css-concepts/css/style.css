@@ -1,34 +1,96 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Roboto", sans-serif;
     font-size: 2rem;
+    min-height: 200vh;
 }
 
-.columns{
-    column-count: 4;
-    column-width: 250px;
-    column-rule: 2px solid #000;
-    column-gap: 3rem;
+.outer-container {
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+
 }
 
-.columns p{
-    margin-top: 0;
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /* position: relative; */
 }
 
-.columns h2{
-    background-color: #333;
+.box {
+    width: 150px;
+    height: 150px;
     color: #fff;
     padding: 1rem;
-    margin-top: 0;
-    padding: 3rem;
-    break-inside: avoid;
 }
 
-.columns .quote{
-    column-span: all;
-    background-color: antiquewhite;
+.absolute {
+    background-color: #00f;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed {
+    background-color: #0f0;
+    position: fixed;
+    top: 10px;
+}
+
+.sticky {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+/* 
+section {
+    height: 100vh;
+}
+
+.blue {
+    background-color: #00f;
+}
+
+.red {
+    background-color: #f00;
+}
+
+.green {
+    background-color: green;
+}
+
+header,
+footer {
+    color: #fff;
     text-align: center;
-    margin-top: 2rem;
+    height: 100px;
 }
 
-.nowrap{
-    white-space: nowrap;
+header {
+    position: sticky;
+    top: 0;
 }
+
+footer {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+} */
