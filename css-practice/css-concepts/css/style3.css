@@ -1,0 +1,11 @@
+.columns {
+    display: flex;
+    gap: 2rem;
+    border: 10px solid firebrick;
+    align-items: flex-start;
+}
+
+.columns > * {
+    background-color: blanchedalmond;
+    flex-basis: 100%;
+}

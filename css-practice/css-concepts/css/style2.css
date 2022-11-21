@@ -1,0 +1,19 @@
+body {}
+
+nav {
+    border: 2px solid firebrick;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.nav-list li{
+    min-width: 20px;
+    align-self: auto;
+}
